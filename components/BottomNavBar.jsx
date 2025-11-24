@@ -2,7 +2,7 @@ import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { useRouter } from "expo-router";
 
 export default function BottomNavbar() {
-  const router = useRouter();
+  const router = useRouter(); 
 
   const tabs = [
     { label: "Inicio", route: "/(tabs)/home" },
@@ -10,6 +10,7 @@ export default function BottomNavbar() {
     { label: "Grabar", route: "/(tabs)/record" },
     { label: "Noti", route: "/(tabs)/notifications" },
     { label: "Mensajes", route: "/(tabs)/messages" },
+    { label: "Calendar", route: "../calendar" },
   ];
 
   return (
