@@ -24,7 +24,6 @@
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adrianjcl/Red-UT-Cancun.git"
