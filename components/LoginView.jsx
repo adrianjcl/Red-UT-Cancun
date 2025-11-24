@@ -70,7 +70,7 @@ export default function LoginView() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: "#f3f4f6",
+    backgroundColor: "#ffffff", // fondo blanco
     justifyContent: "center",
     paddingHorizontal: 24,
   },
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     marginBottom: 32,
-    color: "#111827",
+    color: "#000000", // texto destacado
   },
   form: {
     backgroundColor: "#fff",
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
     color: "#111827",
   },
   button: {
-    backgroundColor: "#000",
+    backgroundColor: "#02967E", // botón principal
     paddingVertical: 14,
     borderRadius: 12,
     marginTop: 8,
@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   linkText: {
-    color: "#2563eb",
+    color: "#02967E", // texto destacado
     fontSize: 14,
     textAlign: "center",
     fontWeight: "500",

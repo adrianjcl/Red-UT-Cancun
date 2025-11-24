@@ -1,10 +1,21 @@
 import { View, Text, StyleSheet } from "react-native";
+import HomeView from "../../components/HomeView";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Pantalla de Inicio</Text>
-    </View>
+    <SafeAreaView
+      style={{
+        flex: 1,
+        backgroundColor: "#fff",
+        paddingHorizontal: 12,
+        paddingTop: 24,
+      }}
+    >
+      <View style={styles.container}>
+        <HomeView></HomeView>
+      </View>
+    </SafeAreaView>
   );
 }
 

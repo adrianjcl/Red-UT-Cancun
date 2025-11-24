@@ -1,7 +1,5 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-import Main from "./components/registro";
-import Register from "./components/registro";
+import { StyleSheet, View } from "react-native";
+import Register from "./components/RegisterView";
 
 export default function App() {
   return (

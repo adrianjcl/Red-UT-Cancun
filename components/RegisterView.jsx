@@ -41,7 +41,7 @@ export default function RegisterView() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Bienvenido</Text>
+      <Text style={styles.title}>Registro</Text>
 
       <View style={styles.form}>
         <TextInput
@@ -87,7 +87,7 @@ export default function RegisterView() {
           <Text style={styles.buttonText}>Registrar</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={() => router.push("/(auth)/login")}>
+        <TouchableOpacity onPress={() => router.push("/Auth/login")}>
           <Text style={styles.linkText}>¿Ya tienes cuenta? Inicia sesión</Text>
         </TouchableOpacity>
       </View>
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     color: "#111827",
   },
   button: {
-    backgroundColor: "#000",
+    backgroundColor: "#02967E",
     paddingVertical: 14,
     borderRadius: 12,
     marginTop: 8,
