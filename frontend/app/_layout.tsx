@@ -1,11 +1,10 @@
-import { Tabs } from 'expo-router';
+// frontend/app/_layout.tsx
+import { Stack } from 'expo-router';
 
-export default function TabLayout() {
+export default function Layout() {
   return (
-    <Tabs>
-      <Tabs.Screen name="index" options={{ title: 'Inicio' }} />
-      <Tabs.Screen name="explore" options={{ title: 'Explorar' }} />
-      <Tabs.Screen name="profile" options={{ title: 'Perfil' }} />
-    </Tabs>
+    <Stack>
+      <Stack.Screen name="index" options={{ title: 'RED UT' }} />
+    </Stack>
   );
 }
